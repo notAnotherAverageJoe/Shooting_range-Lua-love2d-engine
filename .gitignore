@@ -1,0 +1,26 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts and temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore LÖVE game build files
+*.love
+*.zip
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore specific directories if they contain temporary or generated content
+build/
+tmp/
+notes.md
+notes.md/
+
